@@ -1,0 +1,92 @@
+<style>
+
+body {
+    font-family: Helvetica;
+}
+
+/*Paragraf*/
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Helvetica;
+}
+
+/*Rubrik 4*/
+h1 h2 h3 h4 h5 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+img {
+    padding: 3px;
+}
+
+/*Banner*/
+.header {
+    background-color: #222222;
+    text-align: center;
+}
+
+
+
+/*Navigation*/
+.topnav {
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #222222;
+    font-family: Helvetica;
+    z-index: 1;
+    padding: 0px -1px 1px 1px;
+}
+
+/* navigation länkar*/
+.topnav a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #00fe1a;
+    display: block;
+    padding: 14px;
+}
+
+/*Hovra över*/
+.topnav a:hover {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+/*Kolumner*/
+.columnLeft {
+    background-color: #ffffff;
+    float: left;
+    width: 76%;
+}
+
+.columnRight {
+    background-color: #ffffff;
+    float: right;
+    width: 24%;
+    z-index: -1;
+}
+
+/*Footern*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/*Dra ihop vid mindre skärm*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+</style>
